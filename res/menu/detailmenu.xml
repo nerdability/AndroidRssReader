@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/actionbar_markunread"
+          android:icon="@drawable/unread"
+          android:title="@string/btn_mark_unread"
+          android:showAsAction="ifRoom|withText"/>
+	<item android:id="@+id/actionbar_saveoffline"
+          android:icon="@drawable/offline"
+          android:title="@string/btn_offline_reading"
+          android:showAsAction="ifRoom|withText"/>
+</menu>

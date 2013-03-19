@@ -1,0 +1,52 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/ScrollView" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 		
+		<LinearLayout
+		    android:id="@+id/article_detail_layout"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" 
+		    android:orientation="vertical"
+			android:background="#FFFFFF">
+
+			<TextView 
+			    style="?android:attr/textAppearanceLarge"
+			    android:id="@+id/article_title"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingTop="16dp"
+			    android:paddingLeft="16dp"
+			    android:paddingRight="16dp"
+	        	android:textSize="20sp"
+	        	android:textStyle="bold"
+				android:textColor="#38b4ea"
+			    tools:context=".ArticleDetailFragment" />
+
+			<TextView 
+			    style="?android:attr/textAppearanceLarge"
+			    android:id="@+id/article_author"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingBottom="16dp"
+			    android:paddingTop="2dp"
+			    android:paddingLeft="16dp"
+			    android:paddingRight="16dp"
+	        	android:textSize="12sp"
+	        	android:textStyle="italic"
+				android:textColor="#A8A8A8"
+			    tools:context=".ArticleDetailFragment" />
+		 
+			<TextView 
+			    style="?android:attr/textAppearanceLarge"
+			    android:id="@+id/article_detail"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="16dp"
+	        	android:textSize="16sp"
+			    tools:context=".ArticleDetailFragment" />		
+ 			   
+	    </LinearLayout>
+</ScrollView>

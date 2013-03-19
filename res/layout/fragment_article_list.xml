@@ -1,0 +1,38 @@
+<LinearLayout
+    android:id="@+id/article_row_layout" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#E6E6E6"
+    style="?android:attr/textAppearanceLarge"
+	tools:context=".ArticleListFragment">
+
+	<TextView 
+	    android:id="@+id/article_title_text" 
+	    xmlns:tools="http://schemas.android.com/tools"
+    	style="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="#38b4ea"
+		android:paddingTop="5dip" 
+		android:paddingLeft="15dip"
+		android:paddingRight="8dip"
+		android:textSize="16sp" />
+	
+
+	<TextView 
+	    style="?android:attr/textAppearanceLarge"
+	    android:id="@+id/article_listing_smallprint"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="2dp"
+	    android:paddingLeft="15dip"
+		android:paddingRight="8dip"
+		android:paddingBottom="15dip"
+       	android:textSize="12sp"
+       	android:textStyle="italic"
+		android:textColor="#A8A8A8"/>
+
+</LinearLayout>
