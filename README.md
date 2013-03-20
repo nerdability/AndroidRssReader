@@ -10,3 +10,5 @@ It also has some other built in features such as a basic DB tracking which posts
 
 
 RIP Google Reader
+
+<img src="http://3.bp.blogspot.com/-dw3wFuUK3d8/UUjVhO6kZhI/AAAAAAAAAE0/Zm2CLAj61yY/s640/rss_reader.png" />
